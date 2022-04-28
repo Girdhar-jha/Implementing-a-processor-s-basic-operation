@@ -2,19 +2,30 @@ h1{
   color:#F8B400;
   font-family: 'Tapestry', cursive;
 }
+h1:hover
+{
+  font-size:40px;
+  background-color:white;
+}
 body{
-  background-color:#FFEEEE;
+background-image: conic-gradient(red, #9FC088, green) , url('coa.jpg');
+border-radius: 50%;
+background-size: contain;
   text-align: center;
   display:flex;
   flex-direction: column;
+  color:#DADBBD;
+  margin:0;
 }
 h2{
   margin: 20px;
 }
-p{
+P{
   margin: 40px;
   font-family:'Merriweather', serif;
   font-weight: lighter;
+  border: 5px solid #B4FF9F;
+  border-radius:10px;
 }
 form{
   display:flex;
