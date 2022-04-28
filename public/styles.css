@@ -1,0 +1,58 @@
+h1{
+  color:#F8B400;
+  font-family: 'Tapestry', cursive;
+}
+body{
+  background-color:#FFEEEE;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+}
+h2{
+  margin: 20px;
+}
+p{
+  margin: 40px;
+  font-family:'Merriweather', serif;
+  font-weight: lighter;
+}
+form{
+  display:flex;
+  flex-direction: column;
+  width:50%;
+  margin:auto;
+}
+label{
+  margin:10px;
+}
+.number{
+height:20px;
+  background-color: #DDE7F2;
+}
+select{
+margin-bottom:20px;
+}
+label{
+  font-family:'Merriweather', serif;
+}
+.submit{
+  cursor:pointer;
+}
+select{
+  cursor: pointer;
+}
+footer{
+  background-color:#1A3C40;
+  color:white;
+  margin-top:50px;
+height:100px;
+display:flex;
+align-content: center;
+align-items: center;
+flex-direction: column;
+/* position: absolute; */
+}
+/* nav{
+  position: relative;
+  height:50%;
+} */
